@@ -15,10 +15,12 @@ Realizar commit `git commit -m "comentários das alterações"`
 
 Verificando log `git log`
 
+Criar Branch `git checkout -b NOME_BRANCH origin/master`
+
 Verificando log em uma única linha `git log --oneline`
 
 Clonando um repositório no github.com para o diretório físico `git@github.com:cavalsilva/ComandosGit.git`, exemplo clonando este repositório
 
-Atualizar o repositório local com a nova versão do servidor remoto `git pull`
+Atualizar o repositório local com a nova versão do servidor remoto `git pull origin master`
 
 Enviar as alterações do servidor local para o remoto `git push origin master`
