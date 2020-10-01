@@ -24,3 +24,7 @@ Clonando um repositório no github.com para o diretório físico `git@github.com
 Atualizar o repositório local com a nova versão do servidor remoto `git pull origin master`
 
 Enviar as alterações do servidor local para o remoto `git push origin master`
+
+Reverter mudanças `git reset --hard`
+
+Remover todos arquivos e diretórios untracked `git clean -fd` # f (force) d (directory)
