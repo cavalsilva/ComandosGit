@@ -1,4 +1,4 @@
-# ComandosGit
+# Comandos Git
 Repositório com os comandos do git
 
 Criar um novo repositório `git init`
