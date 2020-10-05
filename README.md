@@ -28,3 +28,5 @@ Enviar as alterações do servidor local para o remoto `git push origin master`
 Reverter mudanças `git reset --hard`
 
 Remover todos arquivos e diretórios untracked `git clean -fd`, f (force) d (directory)
+
+Atualizar configuração para nomes longos `git config core.longpaths true`
