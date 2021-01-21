@@ -30,3 +30,5 @@ Reverter mudanças `git reset --hard`
 Remover todos arquivos e diretórios untracked `git clean -fd`, f (force) d (directory)
 
 Atualizar configuração para nomes longos `git config core.longpaths true`
+
+Descobrir última tag de um commit `git describe --contains <commit>`
