@@ -17,6 +17,8 @@ Verificando log `git log`
 
 Criar Branch `git checkout -b NOME_BRANCH origin/master`
 
+Excluir Branch Local `git branch -D NOME_BRANCH`
+
 Verificando log em uma única linha `git log --oneline`
 
 Clonando um repositório no github.com para o diretório físico `git@github.com:cavalsilva/ComandosGit.git`, exemplo clonando este repositório
