@@ -34,3 +34,9 @@ Remover todos arquivos e diretórios untracked `git clean -fd`, f (force) d (dir
 Atualizar configuração para nomes longos `git config core.longpaths true`
 
 Descobrir última tag de um commit `git describe --contains <commit>`
+
+# Git stash
+O comando git stash salva as alterações sem commit (tanto as preparadas quanto as não preparadas). 
+
+Por exemplo: Estou trabalhando direto na linha master e preciso criar uma branch para ela: `git stash`, depois faz a criação de uma nova branch `git branch -D NOME_BRANCH` e por fim `git stash pop` (este comando pega o que foi gravado e coloca na branch), a partir daí é dar andamento na branch
+
