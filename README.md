@@ -40,3 +40,33 @@ O comando git stash salva as alterações sem commit (tanto as preparadas quanto
 
 Por exemplo: Estou trabalhando direto na linha master e preciso criar uma branch para ela: `git stash`, depois faz a criação de uma nova branch `git checkout -b NOME_BRANCH` e por fim `git stash pop` (este comando pega o que foi gravado e coloca na branch), a partir daí é dar andamento na branch
 
+
+# Rebase
+Rebase
+Antes da realização do rebase, verificar se tem algo na branch para ser commitada:
+
+1 - `git status`
+
+2 - caso tenha algo para commitar, realizar os commits e push
+
+Realizando rebase com a master:
+
+1 - `checkout master`
+
+2 - `git pull`
+
+Em seguida deve voltar para a branch para realizar o rebase interativo
+
+1 - `git checkout NOME_BRANCH`
+
+2 - `git rebase -i master`
+
+Caso tenha algum conflito, deve ser feito os merges e em seguida confirmar as alterações do rebase:
+
+1 - `git add .` (após o merge) 
+
+2 - `git rebase --continue`
+
+Por fim quando todo o rebase for concluído deve subir as alterações:
+
+1 - `git push --force`
